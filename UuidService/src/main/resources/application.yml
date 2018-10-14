@@ -1,0 +1,10 @@
+server:
+  port: 8801
+spring:
+   application:
+     name:uuid-service
+management:
+  endpoints:
+     web:
+      exposure:
+        include: "*"
